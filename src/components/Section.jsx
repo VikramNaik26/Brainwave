@@ -18,7 +18,7 @@ const Section = ({
       {children}
 
       <div className="absolute top-0 hidden left-5 w-0.25 h-full bg-stroke-1 pointer-events-none md:block lg:left-7.5 xl:left-10" />
-      <div className="absolute top-0 hidden left-5 w-0.25 h-full bg-stroke-1 pointer-events-none md:block lg:right-7.5 xl:right-10" />
+      <div className="absolute top-0 hidden right-5 w-0.25 h-full bg-stroke-1 pointer-events-none md:block lg:right-7.5 xl:right-10" />
 
       {crosses && (
         <>
